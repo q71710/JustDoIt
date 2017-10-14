@@ -1,0 +1,12 @@
+# 忽略secert.yml 檔案
+secert.yml
+
+# 忽略 config 目錄下的 database.yml 檔案
+config/database.yml
+
+# 忽略所有 db 目錄下，副檔名是 .sqlite3 的檔案
+/db/*.sqlite3
+
+# 忽略所有副檔名是 .tmp 的檔案
+*.tmp
+*.config
